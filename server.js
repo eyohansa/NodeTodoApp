@@ -7,7 +7,7 @@ var methodOverride = require('method-override');
 
 var db = mongoose.connection;
 
-mongoose.connect('mongodb://todoUserAdmin:banan4split@128.199.158.182:27017/todo', function(err) {
+mongoose.connect('mongodb://todoUserAdmin:banan4split@127.0.0.1:27017/todo', function(err) {
 	if (err)
 		console.log(err);
 });
